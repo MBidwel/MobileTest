@@ -1,4 +1,4 @@
 @charset "utf-8";
 /* CSS Document */
 .first {width: 100%; height: auto;  position: absolute; top: 0px; left: 0px; color: white; border: 0px solid blue; background: black;}
-p {font-size: 20px; margin: 0px auto; padding-left: 30px; padding-right: 30px; padding-top: 20px; max-width: 400px; text-align: center;}
+p {font-size: 19px; font-family: calibri; margin: 0px auto; padding-left: 30px; padding-right: 30px; padding-top: 20px; max-width: 400px; text-align: center;}
