@@ -1,9 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
-header {right: 0; left: 0; margin-right: 0 auto; margin-left: 0 auto; text-align: center; position: fixed; color: blue; z-index: 100; background: green;}
+header {right: 0; left: 0; margin-right: 0 auto; margin-left: 0 auto; text-align: center; position: fixed; color: blue; z-index: 0; background: green;}
 .head {margin-top: 20px; margin-bottom: 20px}
-body {margin: 0px;}
-.main {max-width: 900px; margin: 0px auto; position: relative; z-index: 1;}
-.first {width: 100%; height: auto; position: relative; padding-top: 10px; padding-bottom: 10px; color: white; border: 0px solid blue; background: black;}
-.second {width: 100%; height: auto; position: relative; padding-top: 10px; padding-bottom: 10px; color: black; border: 0px solid blue; background: #FF6E00;}
+body {margin: 0px auto; background-color: #3B3B3B}
+
+.PictureDiv {position: relative; max-width: 1920px; margin: 0px auto; height: auto; top: 63px; color: white; background: orange;  overflow: visible}
+.PictureBackground {margin: 0px auto;  width: 100%; height: auto; display: grid;}
+.main {position: relative; max-width: 900px; margin: 0px auto; top: 63px;}
+
+.first {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 10px; color: white; background: black;}
+.second {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 10px; color: black; background: #FF6E00;}
 p {font-size: 19px; font-family: calibri; margin: 0px auto; padding-left: 30px; padding-right: 30px;max-width: 500px; text-align: center;}
