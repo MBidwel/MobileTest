@@ -4,8 +4,8 @@ header {right: 0; left: 0; margin-right: 0 auto; margin-left: 0 auto; text-align
 .head {margin-top: 20px; margin-bottom: 20px}
 body {margin: 0px auto; background-color: #3B3B3B}
 
-.PictureDiv {position: relative; max-width: 1920px; margin: 0px auto; height: auto; top: 63px; color: white; background: orange;  overflow: visible}
-.PictureBackground {margin: 0px auto;  width: 100%; height: auto; display: grid;}
+.PictureDiv {position: relative; max-width: 1400px; margin: 0px auto; height: auto; top: 63px; color: white; background: orange;  overflow: visible}
+.PictureBackground {margin: 0px auto; width: 100%; height: auto; display: block;}
 .main {position: relative; max-width: 900px; margin: 0px auto; top: 63px;}
 
 .first {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 10px; color: white; background: black;}
