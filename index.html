@@ -1,29 +1,54 @@
-<!doctype html>
-<html lang="en_us">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Snoopy's Towing</title>
-	<link href="Website.css" rel="stylesheet" type="text/css">
-</head>
-	<body>
-		<header>
-			<p class="head">based</p>
-		</header>
-		
-		<div class="PictureDiv">
-			<img src="banner.png" class="PictureBackground">
-		</div>
-			<div class="main">
-				<div class="first">
-					<p>China was first invented in 1987 when George Bush sold the Asian peninsula to the Greeks</p>
-					<p>23 years later, war broke out and the Greek civilization was desimated.</p>
-					<p>In aftermath of the conflict Kin Jong un rose up as a leader and united the Asian peninsula into what is known today as China</p>
-				</div>
-				<div class="second">
-					<p>The truth has been revealed. 0_0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget elementum felis. Vivamus aliquam fermentum maximus. Nullam non lectus at erat commodo tempor vel vel nibh. Duis maximus est eget metus pulvinar egestas. Pellentesque ultrices, nunc a pellentesque viverra, urna nisi elementum orci, quis rhoncus nunc tortor vel lorem.</p>
-				</div>
-			</div>
-		
-	</body>
-</html>
+@charset "utf-8";
+/* CSS Document */
+header {margin: 0px auto; width: 100%; padding-bottom: 10px; padding-top: 10px; text-align: center; position: fixed; color: blue; background: #c7493a; z-index: 100}
+.callBox {margin: 0px auto; width: 200px; height: 40px; border-radius: 10px;  background: #F4EE5E; display: block;}
+.head {text-align: center; padding-top: 0px;}
+.number {text-align: center; font-size: 14px;}
+body {margin: 0px auto; background-color: #131313}
+
+img {height: auto;}
+
+/* This is The Main Picture */
+.PictureDiv {position: relative; max-width: 1300px; margin: 0px auto; height: auto; top: 60px; color: white; background: orange; display: block;}
+.Desktop {margin: 0px auto; width: 100%; height: auto; display: block;}
+.Mobile {margin: 0px auto; width: 100%; height: auto; display: block;}
+
+
+.main {position: relative; max-width: 1300px; margin: 0px auto; top: 60px;}
+
+.firstDesktop {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 30px; color: white; background: #242629;}
+.firstMobile {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 30px; color: white; background: #242629;}
+
+.leftContainer {position: relative; width: 50%; height: 100px auto; padding-bottom: 200px; color: white; background: #242629;}
+.services  {position: relative; width: 400px auto; height: auto; padding-top:  10px; color: white; background: #242629; float: right; z-index: 10;}
+.services2 {position: absolute; width: 50%; height: auto; right: 0px; padding-top:  10px; padding-bottom: 30px; color: white; background: #242629;}
+
+.second {position: relative; width: 100%; height: auto; padding-top: 1px; padding-bottom: 30px; color: white; background: #1E2022;}
+.third  {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 30px; color: white; background: #242629;}
+.fourthDesktop {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 30px; color: white; background: #1E2022; text-align: center;}
+.fourthMobile  {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 30px; color: white; background: #1E2022; text-align: center;}
+
+
+p {font-size: 19px; font-family: calibri; margin: 0px auto; padding-left: 30px; padding-right: 30px;max-width: 500px; text-align: left;}
+.pleft {font-size: 19px; font-family: calibri; margin: 0px auto; padding-left: 30px; padding-right: 30px;max-width: 500px; text-align: left;}
+.servicing {margin: 0px auto; max-width: 110px;}
+h1 {text-align: center; color: #F4EE5E;}
+h2 {margin: 0px auto; padding-left: 30px; padding-right: 30px; max-width: 500px; text-align: left;}
+
+/* Turns picture into mobile */
+.Mobile{display:none;}
+.firstMobile {display: none;}
+.fourthMobile {display: none;}
+
+@media(max-width: 700px){
+  .Desktop, .leftContainer, .services2, .firstDesktop, .fourthDesktop{
+    display:none;
+  }
+  .Mobile, .firstMobile, .fourthMobile, p{
+    display:block; font-size: 16px; 
+  }
+	h1 {
+	font-size: 25px;	
+  }
+}
+
