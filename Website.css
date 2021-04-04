@@ -1,13 +1,94 @@
-@charset "utf-8";
-/* CSS Document */
-header {right: 0; left: 0; margin-right: 0 auto; margin-left: 0 auto; text-align: center; position: fixed; color: blue; z-index: 0; background: green;}
-.head {margin-top: 20px; margin-bottom: 20px}
-body {margin: 0px auto; background-color: #3B3B3B}
+<!doctype html>
+<html lang="en_us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Snoopy's Towing</title>
+	<link href="Website.css" rel="stylesheet" type="text/css">
+</head>
+	<body>
+		<header>
+			<a href="https://www.pc.com" style="text-decoration: none;" ><div class="callBox">
+				<p class="head">Call Now!</p>
+				<p class="number">989-989-9898</p>
+			</div>
+			</a>
+		</header>
+		
+		<div class="PictureDiv">
+			<img src="banner.png" class="Desktop">
+			<img src="bannerMobile.png" class="Mobile">
+		</div>
+			<div class="main">
+					<!-- Desktop -->
+				<div class="firstDesktop">
+					<h1>The only service in the area with loaner vehicles available 24 hours</h1>
+				</div>
+					<!-- Mobile List-->
+				<div class="firstMobile">
+					<h1>The only service in the area with loaner vehicles available 24 hours</h1>
+					<h2>Our services Include</h2>
+					<p> -------------------------------------</p>
+					<p>• Towing</p> 
+					<p>• Jump Starts</p>
+					<p>• Gas Delivery</p>
+					<p>• Lock Outs (Unlocks)</p>
+					<p>• Flat Tires</p>
+					<p>• Vehicle Storage</p>
+					<p>• Battery Service & Installation</p>
+					<p>• Impounds </p>
+					<p>• Free Loaner Delivery</p>
+				</div>
+				<!-- Desktop Right Bullet List-->
+				<div class="services2">
+					<h2>&nbsp;</h2>
+					<p>&nbsp;</p>
+					<p>• Vehicle Storage</p>
+					<p>• Battery Service & Installation</p>
+					<p>• Impounds </p>
+					<p>• Free Loaner Delivery</p>
+					<p>&nbsp;</p>
+				</div>
+				<!-- Desktop Holds Left Bullet List Which Allows It To Float Right Inside-->
+				<div class="leftContainer">
+					<!-- Holds Left Bullet List -->
+					<div class="services">
+						<h2>Our services Include</h2>
+						<p> -------------------------------------</p>
+						<p>• Towing</p> 
+						<p>• Jump Starts</p>
+						<p>• Gas Delivery</p>
+						<p>• Lock Outs (Unlocks)</p>
+						<p>• Flat Tires</p>
+					</div>
+				</div>
+				<!-- Second Div With Servicing Locations-->
+				<div class="second">
+				  <h1>Servicing Locations</h1>
+				  <p class="servicing">• Meep morp</p>
+				  <p class="servicing">• Skeetle</p>
+				  <p class="servicing">• afjkfdjf</p>
+				  <p class="servicing">• asdkadsja </p>
+				</div>
+				<!-- IDK YET -->
+				<div class="third">
+					<p>China was first invented in 1987 when George Bush sold the Asian peninsula to the Greeks. 23 years later, war broke out and the Greek civilization was desimated. In aftermath of the conflict Kin Jong un rose up as a leader and united the Asian peninsula into what is known today as China</p>
+				</div>
+				<!-- Dekstop Insurance -->
+				<div class="fourthDesktop">
+					<h1>We accept all insurance providers!</h1>
+				    <img src="Allstate.svg.png"  style="width: 20%; height: auto; margin: 0px auto; padding-right: 50px;">
+					<img src="AAA-Logo-2010.png" style="width: 25%; height: auto; margin: 0px auto;" >
+					<img src="StateFarmLogo.png" style="width: 20%; height: auto; margin: 0px auto; padding-left: 50px;">
+				</div>
+				<!-- Mobile Insurance -->
+				<div class="fourthMobile">
+					<h1>We accept all insurance providers!</h1>
+					<img src="AAA-Logo-2010.png" style="width: 25%; height: auto; margin: 0px auto; display: block;" >
+				    <img src="Allstate.svg.png"  style="width: 30%; height: auto; margin: 0px auto; padding-right: 30px; ">
+					<img src="StateFarmLogo.png" style="width: 35%; height: auto; margin: 0px auto; ">
+				</div>
+	</div>
 
-.PictureDiv {position: relative; max-width: 1400px; margin: 0px auto; height: auto; top: 63px; color: white; background: orange;  overflow: visible}
-.PictureBackground {margin: 0px auto; width: 100%; height: auto; display: block;}
-.main {position: relative; max-width: 900px; margin: 0px auto; top: 63px;}
-
-.first {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 10px; color: white; background: black;}
-.second {position: relative; width: 100%; height: auto; padding-top:  10px; padding-bottom: 10px; color: black; background: #FF6E00;}
-p {font-size: 19px; font-family: calibri; margin: 0px auto; padding-left: 30px; padding-right: 30px;max-width: 500px; text-align: center;}
+	</body>
+</html>
